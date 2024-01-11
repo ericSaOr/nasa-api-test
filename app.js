@@ -1,5 +1,6 @@
-const url="https://api.nasa.giv/planetary/apid?api_key="
-const api_key = config.NASA_API_KEY;
+
+const url="https://api.nasa.gov/planetary/apod?api_key=" 
+const api_key = "dKbq9NCkQoy3F8pbmkjH5D2cBLRaYzbK1EkgO5Hx";
 console.log(api_key)
 
 const fetchNasaPhotos = async () =>{

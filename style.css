@@ -12,14 +12,18 @@
 
 .picture-blurb-container {
     display: flex;
+    margin-right: 50px;
 }
 
 #picture {
     width: 50%;
-    margin-right: 1rem;
+    margin: auto;
+    border-radius: 5px;
+    border: black solid 2px;
 }
 
 #blurb {
-    letter-spacing: 0px;
-    line-height: 20px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    margin-left: 10px
 }
